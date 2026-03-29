@@ -10,7 +10,7 @@ function Debounce1() {
             clearTimeout(timer)
             setTimeout(() => {
                 console.log("before dounce:" + count);
-                func(...args)
+                // func(...args)
             }, deplay);
 ;
         }
