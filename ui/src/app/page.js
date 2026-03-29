@@ -2,6 +2,7 @@ import Bank from "@/components/Bank";
 import Debounce from "@/components/Debounce";
 import Debounce1 from "@/components/Debounce1";
 import Eventloop from "@/components/Eventloop";
+import Throttle from "@/components/Throttle";
 import Image from "next/image";
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
           <Eventloop />
           <Debounce />
           <Debounce1 />
+          <Throttle />
         </div>
       </main>
     </div>

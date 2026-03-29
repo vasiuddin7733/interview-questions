@@ -9,7 +9,7 @@ function Debounce() {
         return function(...args){
             clearTimeout(timer)
             timer = setTimeout(() => {
-                func.apply(this, args)
+                // func.apply(this, args)
             }, deplay);
 ;
         }
