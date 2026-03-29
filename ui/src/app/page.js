@@ -1,3 +1,7 @@
+import Bank from "@/components/Bank";
+import Debounce from "@/components/Debounce";
+import Debounce1 from "@/components/Debounce1";
+import Eventloop from "@/components/Eventloop";
 import Image from "next/image";
 
 export default function Home() {
@@ -58,6 +62,12 @@ export default function Home() {
           >
             Documentation
           </a>
+        </div>
+        <div>
+          <Bank />
+          <Eventloop />
+          <Debounce />
+          <Debounce1 />
         </div>
       </main>
     </div>
