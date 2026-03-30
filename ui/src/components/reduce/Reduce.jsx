@@ -1,5 +1,8 @@
 "use client";
 import React from "react";
+import GroupEle from "./GroupEle";
+import ArrObj from "./ArrObj";
+import Duplicates from "./Duplicates";
 
 function Reduce() {
   const arr1 = [1, 2, 3,4,5];
@@ -23,6 +26,9 @@ function Reduce() {
       <h2>Count: {JSON.stringify(countKey)}</h2>
       <h2>Count2: {JSON.stringify(countKey2)}</h2>
       <h2>Flattened: {JSON.stringify(flattened1(arr3))}</h2>
+      <GroupEle />
+      <ArrObj />
+      <Duplicates />
     </div>
   );
 }
